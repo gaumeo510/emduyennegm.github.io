@@ -1,0 +1,179 @@
+*{box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;}
+.banner{
+    background-color: rgb(193, 241, 243);
+    border: 1px rgb(169, 137, 202) solid;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    width: 98%;
+    margin: 0px auto;
+}
+.name_banner{font-size: 50px;
+color: rgb(192, 8, 8);
+font-weight: bold;
+width: 98%;}
+.h1{
+    color: rgb(171, 233, 48);
+    background-color: rgb(231, 19, 19);
+    border: 1px rgb(143, 107, 152) dashed;
+    width: 750px;
+    height: 50px;
+    margin: 0px auto;
+    padding: 20px 10px 20px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.root>li{
+    list-style: none;
+    float: left;
+    position: relative;
+    display: block;
+}
+.root>li>a{
+    text-decoration:none ;
+    color: rgb(247, 247,0);
+    padding: 0px 15px 0px 15px;
+    display: block;
+    line-height: 40px;
+}
+.menu_web{
+    background-color: rgb(15, 32, 80);
+    width: 98%;
+    height: 40px;
+    margin: 0px auto;
+}
+.root>li>a:hover{
+    background-color: yellowgreen;
+    color: orange;
+    transform: ease-in 0.35s;
+}
+.MyHuong{
+    width: 200px;
+    background-color: #131;
+    display: none;
+    min-height: 80px;
+    position: absolute;
+}
+.MyHuong li{list-style: none;}
+.MyHuong li a{
+    text-transform: none;
+    text-decoration: none;
+    color: rgb(247, 247,0);
+    display: block;
+    border: 1px solid #ccc;
+    line-height: 40px;
+    text-indent: 15px;
+
+}
+.root li:hover .MyHuong{
+    display: block;
+    background-color: #131;
+    color: orange;
+    transform: ease-in 0.35s;
+}
+.MyHuong li a:hover{
+    background-color: yellowgreen;
+    color: orange;
+    transform: ease-in 0.35s;
+}
+.bocuc{
+    border: 1px solid #ccc;
+    width: 97%;margin: 0px auto;
+    }
+    .h11 td{ border: 1px solid #ccc;}
+    .sp1 img{width: 70px; height: 60px;
+    align-items: center;}
+    .giacu{color: red; font-size: 18px;}
+    .giaban{color: blue;
+    font-size: 14px; font-weight: bold;}
+    .sp1{text-align: center;}
+    .giaban:hover{ font-size: 25px;
+    position: absolute;
+transform: ease-in 0.35s;}
+.sp1 img:hover{width: 90px;height: 80px;
+position: absolute;}
+.tranggt{
+    font-size: 18px;
+    color: chocolate;
+    background-color: darkgrey;
+    text-indent: 30px;
+
+}
+.bocuc{
+    border: 1px solid #ccc;
+    width: 97%;margin: 0px auto;
+    }
+    .h12 td{ border: 1px solid #ccc;}
+    .sp2 img{width: 70px; height: 60px;
+    align-items: center;}
+    .giacu{color: red; font-size: 18px;}
+    .giaban{color: blue;
+    font-size: 14px; font-weight: bold;}
+    .sp2{text-align: center;}
+    .giaban:hover{ font-size: 25px;
+    position: absolute;
+transform: ease-in 0.35s;}
+.sp2 img:hover{width: 90px;height: 80px;
+position: absolute;}
+.lmaoxd{
+    margin-top: 20px;
+    margin-bottom: 20px;
+        width: 250px;
+        text-decoration: none;
+        background-color: #90c8d9;
+        color: #ccc;
+    }
+    .lienket li{
+        border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+        transition: 0.3s;
+        /*text-align: center;*/
+        padding-left: 40px;
+    }
+    .lienket li:hover{
+        padding-left: 35px;
+        background-color: #445665;
+    }
+    .lienket li a{
+        display: block;
+        color: #fff;
+        padding: 20px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .banner-slider{
+        border: 10px outset rgb(156, 109, 158);
+        border-radius: 6px;
+        padding-left: 25px;
+        width: 250px; height: 500px;
+        margin: -300px 0px 30px 1200px;
+        font-size: large;
+    background-color: rgb(173, 227, 232);
+    box-sizing: border-box;
+    }
+    
+    /* content */
+    .table1{
+        margin-left: 0px;
+        width: 1200px; height: 800px;
+      
+    }
+    
+    .parag{
+        background-color:rgb(173, 227, 232);
+        margin: -500px 0px 100px 300px;
+        width: 850px;
+        height: 600px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: larger;
+        border: 10px outset rgb(156, 109, 158);
+        border-radius: 6px;
+    }
+    footer{
+        background-color:rgb(246, 221, 245);
+        text-align:center;
+        padding:25px;
+        font-size:18px;
+    }
